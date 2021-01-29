@@ -1,0 +1,4 @@
+{
+    "pip-updater.AutoUpdate": true,
+    //"python.envFile": "${Jeux_Test}/.env"  //PYTHONPATH=Code .env
+}

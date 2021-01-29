@@ -1,0 +1,28 @@
+
+
+
+Faire d'autre salle : 
+    Variante couloir
+    
+
+a faire :
+    pull de classe + tete guys
+
+    adpater a ecran
+
+    placard 
+    objet deco
+    ajouter boss
+
+    ajouter netoyeur vomis
+    systeme spawn coffre quand loot
+
+    faire cour + couloir + viscolaire
+    clef ouvre certaine porte
+
+a refaire : 
+
+a reflechir :
+
+    
+pyinstaller --onefile -w main.py
