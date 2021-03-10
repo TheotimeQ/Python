@@ -28,7 +28,7 @@ class Monster:
         self.Laser_Chance = 0.005
         self.Max_Laser = 2
         self.Alive = True
-        self.image = Image.open("Rendu\Space_Invader\IMG\Monster.png") 
+        self.image = Image.open("IMG\Monster.png") 
         self.img_copy= self.image.copy()
         self.image = self.img_copy.resize((self.Largeur, self.Hauteur))
         self.image_Ship = ImageTk.PhotoImage(self.image)

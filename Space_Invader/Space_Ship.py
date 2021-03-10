@@ -18,7 +18,7 @@ class SpaceShip:
     
         self.xSpeed = 3
 
-        self.image = Image.open("Rendu\Space_Invader\IMG\Ship.png") 
+        self.image = Image.open("IMG\Ship.png") 
         self.img_copy= self.image.copy()
         self.image = self.img_copy.resize((self.Largeur, self.Hauteur))
         self.image_Ship = ImageTk.PhotoImage(self.image)

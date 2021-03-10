@@ -12,8 +12,8 @@ from MyFunction import *
 from ClassPendu import *
 
 # Variable 
-Fichier_Mots = "Rendu\Pendu\TK\Mots.txt"
-Fichier_Scores = "Rendu\Pendu\TK\Score.txt"
+Fichier_Mots = "TK\Mots.txt"
+Fichier_Scores = "TK\Score.txt"
 
 # Lance le programe
 # Rien --> Rien

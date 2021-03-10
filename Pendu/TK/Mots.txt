@@ -73,6 +73,8 @@ ville
 wagon
 xenon
 yohan
+yohan
+Tanguy
 accord
 avenir
 bateau
@@ -153,3 +155,4 @@ professeur
 Harry-Potter
 fenetrefille
 serieuxvieux
+Entrez un mot

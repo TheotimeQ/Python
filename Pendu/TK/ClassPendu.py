@@ -11,8 +11,8 @@ from datetime import datetime
 from MyFunction import *
 
 # Variable 
-Fichier_Mots = "Rendu\Pendu\TK\Mots.txt"
-Fichier_Scores = "Rendu\Pendu\TK\Pendu_Tk.py"
+Fichier_Mots = "TK\Mots.txt"
+Fichier_Scores = "TK\Score.txt"
 
 #Class Jeux
 #Class qui stock toutes les données qui ont besoin d'etre transferées de fonction en fonction.... On envoie juste la class et le tour est joué
@@ -35,5 +35,5 @@ class Pendu:
         self.Windows_Hauteur = self.Window.winfo_screenheight()
         self.canvas = Canvas(self.Window)
 
-        self.image = [Image.open("Rendu\Pendu\IMG\_" + str(k) + "_.png") for k in range(0,9) ]  #Recupere les images et les range dans une liste
+        self.image = [Image.open("IMG\_" + str(k) + "_.png") for k in range(0,9) ]  #Recupere les images et les range dans une liste
         self.photo = [ImageTk.PhotoImage(self.image[k]) for k in range(0,9) ]

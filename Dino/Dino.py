@@ -25,13 +25,13 @@ def click():
     ctypes.windll.user32.mouse_event(4, 0, 0, 0,0) # left up
 
 def Screen():
-        snapshot = ImageGrab.grab(bbox=(650,308,710,310))
-        save_path = "C:/Users/theot/Desktop/Dino Python/shot.jpg"
+        snapshot = ImageGrab.grab(bbox=(180,400,310,550))
+        save_path = "color.jpg"
         snapshot.save(save_path)
 
 def TestPix(x,y,img):
     r,g,b = img.getpixel((x,y))
-    if (r < 100):
+    if r < 100 and g < 100 and b < 100 :
         return 1
     return 0
 
@@ -89,6 +89,19 @@ def jouer():
                 keyboard.release(Key.space) 
                 keyboard.press(Key.down)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
-time.sleep(2)
-jouer()

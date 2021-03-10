@@ -65,7 +65,7 @@ def update_pendu(New_Lettre,Lettre_Juste,Lettre_Fausse,Mots):
 
 #Range les mots par taille puis ordre alphabetique dans le fichier
 # Fichier --> Rien
-def Mots_ranger(Fichier="Pendu\Mots.txt"):
+def Mots_ranger(Fichier="TK\Mots.txt"):
     Mes_mots = []
     Matrice_mots = [ [] for k in range (0,28) ] #ligne n rempli de mots de n lettres
     with open(Fichier, 'r') as Tout_les_mots :  #recupere tous les mots
@@ -89,7 +89,7 @@ def Mots_ranger(Fichier="Pendu\Mots.txt"):
 
 # Ajoute le score au fichier des scores :
 # Fichier , Score --> Rien
-def Ajout_Score(Score, Fichier = "Pendu\Scores.txt"):
+def Ajout_Score(Score, Fichier = "TK\Scores.txt"):
     with open(Fichier, 'a') as Tout_les_Scores :
         Name = input("Rentrez votre psudo : ")
         Date = "".join(list(str(datetime.now())[0:-7]))
@@ -100,7 +100,7 @@ def Ajout_Score(Score, Fichier = "Pendu\Scores.txt"):
         Tout_les_Scores.close()
 
 #Fonction qui trie le ficher score en fonction de la date ou du score .... A faire plus tard
-def Trier_Scores(Fichier = "Pendu\Scores.txt"):
+def Trier_Scores(Fichier = "TK\Scores.txt"):
     #Recupeere seulement premier chiffre ligne , puis sotck la ligne....
     #map(int,list(str(n2_int)))
     return 
