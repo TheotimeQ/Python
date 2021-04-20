@@ -39,6 +39,8 @@ while 1==1 :
             server.login(email_adress, email_password)
             # envoi du mail
             server.sendmail(email_adress, email_receiver, Href)
+            print("Sent : ")
+            print(Href)
 
     
 
